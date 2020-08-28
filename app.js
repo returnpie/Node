@@ -6,22 +6,6 @@ const expressHbs = require("express-handlebars");
 
 const app = express();
 
-// not built-in
-// app.engine(
-//   "hbs",
-//   expressHbs({
-//     layoutsDir: "views/layouts/",
-//     defaultLayout: "main-layout",
-//     extname: "hbs",
-//   })
-// );
-// app.set("view engine", "hbs");
-// app.set("views", "views");
-
-// built-in
-// app.set("view engine", "pug");
-// app.set("views", "views");
-
 app.set("view engine", "ejs");
 app.set("views", "views");
 
